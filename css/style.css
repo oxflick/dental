@@ -1,0 +1,428 @@
+body {
+	background-color: #fff;
+}
+
+.container {
+	max-width: 970px;
+}
+
+.page-wrapper {
+	background-color: #fff;
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+/* Navigation area */
+
+.navbar-default {
+	min-height: 114px;
+	background-color: #fff;
+	font-family: 'Oswald', sans-serif;
+	border-color: #fff; 
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #538ca7;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 62px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #5abd0c;
+	border-bottom: 2px solid #5abd0c;
+}
+
+.nav>li>a {
+	padding: 0 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 28px;
+}
+
+.topmenu {
+	position: relative;
+}
+
+.phone {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+}
+
+.phone p {
+	font-size: 26px;
+	color: #538ca7;
+}
+
+.phone p img {
+	padding-right: 8px;
+	padding-bottom: 5px;
+}
+
+/* Hero Area */
+
+#heroarea {
+	background: url(../img/girl.jpg);
+	background-position: center;
+	height: 462px;
+	margin-top: -20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#heroarea .container h1 {
+	font-weight: 300;
+	font-size: 33px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#heroarea .container h2 {
+	font-weight: 600;
+	font-size: 38.5px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: -10px;
+}
+
+.herocontent {
+	padding-top: 60px;
+}
+
+.herocontent p {
+	color: #fff;
+	width: 400px;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.herocontent a {
+	margin-top: 20px;
+	border-color: transparent;
+}
+
+/* SubHero Area */
+
+#subheroarea {
+	min-height: 515px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.subherocontent h1 {
+	font-weight: 600;
+	font-size: 38.5px;
+	text-transform: uppercase;
+	color: #538ca7;
+}
+
+.subherocontent h1 span {
+	color: #5abd0c;
+}
+
+.subherocontent p {
+	color: #6b7d89;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.serviceicon {
+	position: relative;
+	width: 145px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.serviceicon .textservices {
+	position: absolute;
+	top: 175px;
+	left: 11px;
+}
+
+.serviceicon .textservices1 {
+	position: absolute;
+	top: 175px;
+	left: 23px;
+}
+
+.serviceicon .textservices2 {
+	position: absolute;
+	top: 175px;
+	left: 15px;
+}
+
+.textservices p, 
+.textservices1 p, 
+.textservices2 p {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #fff;
+}
+
+/* Meet Dr Davis Area */
+
+#meetdrdavis {
+	min-height: 420px;
+	background-color: #d6d6d2;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 25px;
+}
+
+.drdaviscontent h1 {
+	font-weight: 600;
+	font-size: 38.5px;
+	text-transform: uppercase;
+	color: #538ca7;
+	padding-top: 5px;
+}
+
+.drdaviscontent h2 {
+	font-weight: 300;
+	font-size: 33px;
+	text-transform: uppercase;
+	color: #538ca7;
+	margin-top: -10px;
+}
+
+.drdaviscontent p {
+	color: #6b7d89;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.drimage {
+	padding-top: 30px;
+}
+
+.drdaviscontent .btn {
+	margin-top: 25px;
+}
+
+/* Exceptional Dentistry area */
+
+#dentistry {
+	min-height: 420px;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 25px
+}
+
+.dentistrycontent h1 {
+	font-weight: 600;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #538ca7;
+	padding-top: 5px;
+}
+
+.dentistrycontent h2 {
+	font-weight: 300;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: #538ca7;
+	margin-top: -10px;
+}
+
+.dentistrycontent p {
+	color: #6b7d89;
+	font-size: 15px;
+	padding-top: 25px;
+	line-height: 2.1;
+}
+
+p.specialtext {
+	color: #69db0e;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+/* Call us area */
+
+#callus {
+	min-height: 70px;
+	background-color: #538ca7;
+	font-family: 'Oswald', sans-serif;
+}
+
+.calluscontent h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+.calluscontent h1 span {
+	color: #5abd0c;
+}
+
+/* Footer area */
+
+footer {
+	min-height: 280px;
+	background-color: #545f70;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 10px;
+}
+
+.address p {
+	text-transform: uppercase;
+	line-height: 2.4;
+}
+
+.logofooter {
+	text-align: right;
+}
+
+.logofooter img {
+	width: 160px;
+	opacity: 0.7;
+}
+
+.logofooter p {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+ul.navfooter {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.navfooter li a {
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 3.0;
+}
+
+.navfooter li a:hover {
+	text-decoration: none;
+	color: #5abd0c;
+}
+
+/* Styles for arrow up */
+
+#return-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: rgb(0, 0, 0);
+	background: rgba(10, 80, 0, 0.7);
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	display: none;
+	z-index: 100;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#return-to-top i {
+	color: #fff;
+	margin: 0;
+	position: relative;
+	left: 16px;
+	top: 13px;
+	font-size: 19px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+	background: rgba(0, 40, 0, 0.9);
+}
+
+#return-to-top:hover i {
+	color: #fff;
+	top: 5px;
+}
+
+/* For Mobile devices */
+
+@media (max-width: 990px) {
+	.logofooter {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+		margin-top: 60px;
+	}
+
+	.navbar-default .navbar-toggle:focus {
+		background-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle:hover .icon-bar {
+		background-color: #5abd0c; 
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background-color: #fff;
+		margin-top: 10px;
+		text-align: center;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		padding-top: 0px;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover {
+		border-bottom: none;
+	}
+
+	.nav>li>a {
+		padding: 25px 10px;
+	}
+
+	.phone {
+		right: 25px;
+	}
+
+	#heroarea {
+		background: url(../img/mobile.jpg);
+		background-position-x: 35%;
+	}
+
+	.herocontent p {
+		width: 200px;
+	}
+
+	p.specialtext {
+		font-size: 18px;
+	}
+
+	.calluscontent h1 {
+		font-size: 24px;
+		line-height: 1.4;
+	}
+
+	.bottomnav {
+		display: none;
+	}
+}    
